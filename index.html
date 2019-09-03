@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html data-wf-page="5d6db321b695c78fb1e1a542" data-wf-site="5d6db321b695c7ea25e1a53d">
+<head>
+  <meta charset="utf-8">
+  <title>Turing Club</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/turingclub.webflow.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Vollkorn:400,400italic,700,700italic","Source Sans Pro:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,900,900italic"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="icons/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="icons/webclip.png" rel="apple-touch-icon">
+  <style>
+.spinner {
+  margin: 100px auto;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  font-size: 10px;
+}
+.spinner > div {
+  background-color: #a9a9a9;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+  animation: stretchdelay 1.2s infinite ease-in-out;
+}
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+@-webkit-keyframes stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+@keyframes stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+</style>
+</head>
+<body>
+  <div data-ix="preloader-fade-out" class="preloader">
+    <div class="w-embed">
+      <div class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
+    </div>
+  </div>
+  <div data-collapse="medium" data-animation="over-right" data-duration="600" data-doc-height="1" class="navbar w-nav">
+    <div class="nav-container w-container"><a href="#" class="brand w-nav-brand"><img src="images/Turing-Club-Masthead-BW-copy.png" width="130" alt="" class="brand-image"></a>
+      <nav role="navigation" class="nav-menu w-nav-menu"><img src="images/hipsterlogogenerator_1428681411802.png" width="100" alt="" class="mobile-logo w-hidden-main"><a href="#head" class="nav-link w-nav-link">Home</a><a href="#about" class="nav-link w-nav-link">Workshops</a><a href="#services" class="nav-link w-nav-link">Team Projects</a><a href="#contact" class="nav-link w-nav-link">Contact</a></nav>
+      <div class="menu-button w-nav-button">
+        <div class="nav-icon w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <header id="head" data-ix="page-load-fade-in" class="header">
+    <div data-animation="cross" data-duration="600" data-infinite="1" data-delay="5000" data-autoplay="1" class="slider w-slider">
+      <div class="mask w-slider-mask">
+        <div class="slide-1 w-slide">
+          <div class="slide-container">
+            <h1>Build.<br></h1>
+            <h4>Attend our tutorials and make your own machine learning algorithms.</h4>
+          </div>
+        </div>
+        <div class="slide-2 w-slide">
+          <div class="slide-container">
+            <h1>Connect.</h1>
+            <h4>Find other like-minded people on campus to collaborate with.</h4>
+          </div>
+        </div>
+        <div class="slide-3 w-slide">
+          <div class="slide-container">
+            <h1>Create.</h1>
+            <h4>Join one of our project teams and use machine learning to create something awesome.</h4>
+          </div>
+        </div>
+      </div>
+      <div class="left-arrow w-hidden-medium w-hidden-small w-hidden-tiny w-slider-arrow-left">
+        <div class="left-icon w-icon-slider-left"></div>
+      </div>
+      <div class="right-arrow w-hidden-medium w-hidden-small w-hidden-tiny w-slider-arrow-right">
+        <div class="right-icon w-icon-slider-right"></div>
+      </div>
+      <div class="slide-nav w-slider-nav w-round"></div>
+    </div>
+  </header>
+  <section id="about" class="about">
+    <div class="row w-row">
+      <div class="left-column w-hidden-small w-hidden-tiny w-col w-col-6">
+        <div class="about-photo w-hidden-small w-hidden-tiny"></div>
+      </div>
+      <div class="right-column w-col w-col-6">
+        <div class="grey-box">
+          <h2 data-ix="title-slide-in-1">Workshops.</h2>
+          <h5 data-ix="title-slide-in-2">Our core program.</h5>
+          <p>Learn how to build the latest state-of-the-art algorithms that influence your world.<br> Want to teach a machine to generate songs? Great! Our NLP Workshops<br>teach that! <br>Want to teach a machine how to recognize and classify images? Do it in on of our Machine Vision workshops!</p><a href="#" class="button">VIEW PORTFOLIO</a></div>
+      </div>
+    </div>
+    <div class="row w-row">
+      <div class="left-column w-col w-col-6">
+        <div class="grey-box">
+          <h2 data-ix="title-slide-in-1">Social <br>Events</h2>
+          <h5 data-ix="title-slide-in-2">Meet new people.</h5>
+          <p>Get to know some of your peers on campus! Meet people that share the same interests as you. The Turing Club hosts social events throughout the year where you can find and get to know people around campus interested in AI too!</p><a href="#services" class="button">OUR SERVICES</a></div>
+      </div>
+      <div class="right-column w-col w-col-6">
+        <div class="about-photo-2"></div>
+      </div>
+    </div>
+  </section>
+  <div data-ix="fade-in-on-scroll" class="break---numbers">
+    <div class="w-row">
+      <div class="column w-hidden-small w-hidden-tiny w-col w-col-2 w-col-small-6 w-col-tiny-6"></div>
+      <div class="w-col w-col-2 w-col-small-6 w-col-tiny-6">
+        <h2>+50</h2>
+        <h5>Workshops</h5>
+      </div>
+      <div class="w-col w-col-2 w-col-small-6 w-col-tiny-6">
+        <h2>+600</h2>
+        <h5>People taught</h5>
+      </div>
+      <div class="w-col w-col-2 w-col-small-6 w-col-tiny-6">
+        <h2>+70</h2>
+        <h5>Members</h5>
+      </div>
+      <div class="w-col w-col-2 w-col-small-6 w-col-tiny-6">
+        <h2>+5</h2>
+        <h5>Social Events</h5>
+      </div>
+      <div class="column w-hidden-small w-hidden-tiny w-col w-col-2 w-col-small-6 w-col-tiny-6"></div>
+    </div>
+  </div>
+  <section id="services" class="services">
+    <div class="row w-row">
+      <div class="left-column w-col w-col-6">
+        <div class="services-photo"></div>
+      </div>
+      <div class="right-column w-col w-col-6">
+        <div class="grey-box">
+          <h2 data-ix="title-slide-in-1">Team Projects.</h2>
+          <h5 data-ix="title-slide-in-2">Make something awesome.</h5>
+          <p>Want to create something to put out in the wild? Have you ever wondered how a machine learning algorithm is deployed in real life? Join one of our team projects and get paired with other students to build something awesome!</p><a href="#contact" class="button">GET IN TOUCH</a></div>
+      </div>
+    </div>
+    <div class="row w-row">
+      <div class="left-column w-col w-col-4">
+        <div data-ix="services-slide-up-1" class="services-1"><img src="images/interface34.svg" width="125" alt="">
+          <h2>Begginners</h2>
+          <p>Are you in Arts, Business or any other major? Doesn&#x27;t matter! The Turing Club is open for everyone! Don&#x27;t get intimidated and come on out. We are all learning here as we go!</p>
+        </div>
+      </div>
+      <div class="column w-col w-col-4">
+        <div data-ix="services-slide-up-2" class="services-2"><img src="images/microwave.svg" width="125" alt="">
+          <h2>Hobbyists</h2>
+          <p>You don&#x27;t need to be a Machine Learning PhD to get out and build something awesome! If you&#x27;re interested in how the technological landscape is shaping around you then we got the place for you.</p>
+        </div>
+      </div>
+      <div class="right-column w-col w-col-4">
+        <div data-ix="services-slide-up-3" class="services-3"><img src="images/picture.svg" width="125" alt="">
+          <h2>Experts</h2>
+          <p>At the Turing Club we also host talks and events with the leading practitioners around the world. Interested in an arXiv paper and want to discuss it? Drop by and chat with our team!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="break---quotes">
+    <h2 data-ix="title-slide-in-1">Be part of the tech<br>changing the world.</h2>
+    <h5 data-ix="title-slide-in-2">But don’t just take our word for it...</h5>
+    <div data-animation="cross" data-duration="750" data-infinite="1" data-delay="4000" data-autoplay="1" class="quote-slider w-slider">
+      <div class="w-slider-mask">
+        <div class="quote-1 w-slide">
+          <p class="quote-text"><em>&quot;If properly harnessed, it can generate enormous prosperity and opportunity.&quot;<br>‍</em>Barack Obama – 44</p>
+        </div>
+        <div class="quote-2 w-slide">
+          <p class="quote-text"><em>&quot;I think generally, people underestimate the capability of AI. It’ll be much smarter than the smartest human&quot;<br>‍</em>Elon Musk,  Tesla/Solar City</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="contact" class="contact">
+    <div class="w-row">
+      <div class="column w-hidden-small w-hidden-tiny w-col w-col-3"></div>
+      <div class="w-col w-col-6">
+        <h2 data-ix="title-slide-in-1">Sign up to our news letter</h2>
+        <h5 data-ix="title-slide-in-2">Get notifications on our events!</h5>
+        <div class="contact-form w-form">
+          <form id="email-form" name="email-form" data-name="Email Form"><label for="name" class="label">Name</label><input type="text" id="name" name="name" data-name="Name" placeholder="Enter your name" maxlength="256" class="text-field w-input"><label for="email" class="label">Email Address</label><input type="email" id="email" name="email" data-name="Email" placeholder="Enter your email address" maxlength="256" required="" class="text-field w-input"><input type="submit" value="Send" data-wait="Please wait..." class="button w-button"></form>
+          <div class="w-form-done">
+            <p>Thank you! Your submission has been received!</p>
+          </div>
+          <div class="w-form-fail">
+            <p>Oops! Something went wrong while submitting the form :(</p>
+          </div>
+        </div>
+      </div>
+      <div class="column w-hidden-small w-hidden-tiny w-col w-col-3"></div>
+    </div>
+  </section>
+  <footer data-ix="fade-in-on-scroll" id="footer" class="footer">
+    <div class="footer-content">
+      <div class="w-row">
+        <div class="w-col w-col-3"><img src="images/Turing-Club-Masthead-BW-copy.png" width="100" alt="" class="footer-logo"></div>
+        <div class="w-col w-col-3"></div>
+        <div class="w-col w-col-3"></div>
+        <div class="w-col w-col-3">
+          <h6>CONTACT</h6>
+          <p class="footer-text">E: president.turing@gmail.com<br>T: (778) 714 1183<br></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+</html>
