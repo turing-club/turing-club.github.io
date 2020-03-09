@@ -190,6 +190,11 @@ p {
   background-color: transparent;
 }
 
+.navbar-secondary {
+  position: sticky;
+  background-color: black;
+}
+
 .nav-container {
   display: block;
   width: 85%;
